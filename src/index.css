@@ -1,0 +1,222 @@
+.lan1{
+  width:100%;
+  height: 100%;
+  background-image: url("https://i.postimg.cc/DwhhyRmG/Copenhagen-Opera-House-2014-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lan2{
+  width:100%;
+  height: 100px;
+/* border: 2px solid black; */
+}
+.butn1{
+  
+  border-radius: 25px;
+}
+.lan3{
+  font-size: 30px;
+  color: white;
+  position: relative;
+  right:10%;
+}
+.butn2{
+  position: relative;
+  right:10%
+}
+.lan4{
+  width:80px;
+  height: 80px;
+  position: relative;
+  left:75%;
+  background-color: darkgreen;
+  border-radius: 150px;
+}
+.lan5{
+  width:350px;
+  height: 290px;
+  position: relative;
+}
+.len6{
+  color: darkgreen;
+  width:350px;
+  height: 100px;
+  position: relative;
+ 
+}
+
+.madiv{
+  height: 100%;
+  position: relative;
+
+}
+.secdiv{
+  position:relative;
+  right:4%;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.firdiv{
+  position:absolute;
+  left:4%;
+  width:50%;
+  top:10%;
+  height: 60%;
+  background-image: url('https://i.postimg.cc/66zZBSXm/Image-by-Stefan-Lehner.png');
+    background-size: cover;
+    z-index: 2;
+    border-radius: 10px;
+}
+.thsecdiv{
+  position:absolute;
+  right:4%;
+  height: 100%;
+  width:50%;
+  background-image: url('https://i.postimg.cc/66zZBSXm/Image-by-Stefan-Lehner.png');
+    background-size: cover;
+    z-index: 1;
+    border-radius: 10px;
+}
+.thfirdiv{
+  position:relative;
+  top:5%;
+  left :4%;
+  width:100%;
+  height:100%;
+  z-index: 2;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.mainmsg{
+  width:100%;
+  height:100%;
+}
+.msg{
+  height: 100%;
+  border: 1px solid lightgreen;
+ background: rgba(239, 239, 239, 1);
+}
+.colimg1{
+  width:100%;
+  height: 200px;
+  background-image: url('https://i.postimg.cc/yWCHwQN2/Kr-yers-Plads-buildings.jpg');
+  background-size: cover;
+  border-radius: 10px;
+}
+.colimg2{
+  width:100%;
+  height: 200px;
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+  border-radius: 10px;
+
+}
+.len7{
+  width:100%;
+  height: 250px;
+  /* border: 1px solid black; */
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.c1{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  width: 85%;
+  height: 150px;
+  background-size: cover;
+  border-radius: 10px;
+  
+
+}
+.c2{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  width: 85%;
+  height: 200px;
+}
+.c3{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  width:100%;
+  height: 248px;  
+  background-repeat: no-repeat;
+}
+.c4{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  width: 85%;
+  height: 200px;
+
+}
+.c5{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+  width: 85%;
+  height: 150px;  
+  border-radius: 10px;
+
+}
+.mn{
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.mn1{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+}
+.mn2{
+  background-image: url('https://i.postimg.cc/zvF7r7SV/images.jpg');
+  background-size: cover;
+}
+.ft1{
+  width:100%;
+  height: 100%;
+  background-color: rgb(8, 176, 142);
+  color: white;
+}
+.port1 {
+  background-image: url('https://i.postimg.cc/wTnSJwHr/images-1.jpg');
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.port11 {
+  width: 100%;
+  height: 100%;
+}
+.faq1{
+  height: 40%;
+  border: 1px solid green;
+  border-radius: 14px;
+}
+.about1{
+  width:100%;
+  height: 100%;
+  background-image: url("https://i.postimg.cc/DwhhyRmG/Copenhagen-Opera-House-2014-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about2{
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
