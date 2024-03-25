@@ -12,7 +12,7 @@ function Contact() {
           <Row>
             <Col lg={3} md={3} sm={3} xs={3} className='pt-3'>
               <Link to={'/'} style={{ textDecoration: 'none' }}>
-                <h1 style={{ color: 'darkgreen' }}>AZDA</h1>
+                <h1 style={{color:'rgba(1, 103, 84, 1)'}}><u>Azda</u></h1>
               </Link>
             </Col>
             <Col lg={6} md={6} sm={6} xs={6}>
@@ -83,7 +83,7 @@ function Contact() {
       </div>
 
 
-      <h3 className='text-success'>HAVE QUESTIONS?</h3>
+      <h3 style={{color:'rgba(1, 103, 84, 1)'}}>HAVE QUESTIONS?</h3>
       <Row>
         <Col lg={12} md={12} sm={12} xs={12}>
           <p className='text center'>Feel free to get in touch and contact us at any time!</p>
@@ -135,7 +135,7 @@ function Contact() {
             </Form.Group>
           </Col>
         </Row>
-        <Button variant="success" size="lg">
+        <Button style={{backgroundColor:'rgba(1, 103, 84, 1)'}} size="lg">
           SEND
         </Button>{' '}
       </div>

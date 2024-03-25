@@ -11,7 +11,7 @@ function FAQ() {
                 <Row>
                     <Col lg={3} md={3} sm={3} xs={3} className='pt-3'>
                         <Link to={'/'} style={{ textDecoration: 'none' }}>
-                            <h1 style={{ color: 'darkgreen' }}>AZDA</h1>
+                            <h1 style={{color:'rgba(1, 103, 84, 1)'}}><u>Azda</u></h1>
                         </Link>
                     </Col>
                     <Col lg={6} md={6} sm={6} xs={6}>
@@ -58,7 +58,7 @@ function FAQ() {
                 </Row>
             </div>
             <div className='container' style={{ width: '42%' }}>
-                <h3 className='text-success pb-5'>WE HAVE GOT ANSWERS TO YOUR QUESTIONS?</h3>
+                <h3 className=' pb-5'style={{color:'rgba(1, 103, 84, 1)'}}>WE HAVE GOT ANSWERS TO YOUR QUESTIONS?</h3>
                 {[1, 2, 3, 4, 5, 6].map((index) => (
                     <div className='faq1 mb-5'>
                         <Row>
@@ -72,7 +72,7 @@ function FAQ() {
                     </div>
                 ))}
                 <div className='mb-5'>
-                <Button variant="success" size="lg">
+                <Button style={{backgroundColor:'rgba(1, 103, 84, 1)'}} size="lg">
                     Show More
                 </Button>
                 </div>

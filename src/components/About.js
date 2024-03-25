@@ -10,7 +10,7 @@ function About() {
           <Row>
             <Col lg={3} md={3} sm={3} xs={3} className='pt-3'>
               <Link to={'/'} style={{ textDecoration: 'none' }}>
-                <h1 style={{ color: 'darkgreen' }}>AZDA</h1>
+                <h1 style={{color:'rgba(1, 103, 84, 1)'}}><u>Azda</u></h1>
               </Link>
             </Col>
             <Col lg={6} md={6} sm={6} xs={6}>
@@ -77,7 +77,7 @@ function About() {
           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div className='w-75 container pb-5'>
-        <h3 className='text-success'> VORES VIRKSOMHEDS VAERDIER</h3>
+        <h3 style={{color:'rgba(1, 103, 84, 1)'}}> VORES VIRKSOMHEDS VAERDIER</h3>
         <div className='w-50 container'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus mi eu leo consequat, sed luctus leo dictum. Aliquam egestas.</p>
         </div>
@@ -86,22 +86,22 @@ function About() {
       <div className='about2 mb-5'>
         <Row className='pt-3 pb-3'>
           <Col lg={3} md={3} sm={3} xs={3} >
-            <i class="fa-solid fa-folder-plus fa-2x text-success"></i>
+            <i class="fa-solid fa-folder-plus fa-2x" style={{color:'rgba(1, 103, 84, 1)'}}></i>
             <h5>Ledelse</h5>
             <p className='w-50 container'>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
           </Col>
           <Col lg={3} md={3} sm={3} xs={3} >
-            <i class="fa-solid fa-toolbox fa-2x text-success"></i>
+            <i class="fa-solid fa-toolbox fa-2x" style={{color:'rgba(1, 103, 84, 1)'}}></i>
             <h5>Ledelse</h5>
             <p className='w-50 container'>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
           </Col>
           <Col lg={3} md={3} sm={3} xs={3} >
-            <i class="fa-solid fa-calendar-days fa-2x text-success"></i>
+            <i class="fa-solid fa-calendar-days fa-2x" style={{color:'rgba(1, 103, 84, 1)'}}></i>
             <h5>Ledelse</h5>
             <p className='w-50 container'>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
           </Col>
           <Col lg={3} md={3} sm={3} xs={3} >
-            <i class="fa-regular fa-handshake fa-2x text-success text-start"></i>
+            <i class="fa-regular fa-handshake fa-2x text-start" style={{color:'rgba(1, 103, 84, 1)'}}></i>
             <h5>Ledelse</h5>
             <p className='w-50 container text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
           </Col>
@@ -109,7 +109,7 @@ function About() {
       </div>
       <div className='w-25 container mb-5'>
         <p>Vi laver statiske beregninger ved nedrivning af bærende vægge, tilbygninger, nyopførte ejendomme og boliger. Vi er rådgivende ingeniører der hjælper dig i mål!</p>
-      <div style={{width:'30%',position:'relative',left:'75%',color:'green'}}>
+      <div style={{width:'30%',position:'relative',left:'75%',color:'rgba(1, 103, 84, 1)'}}>
         <p>Direktør Azda Mehdi</p>
       </div>
       </div>

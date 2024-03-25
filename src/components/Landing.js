@@ -3,17 +3,18 @@ import { Col, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+// import Slider from "react-slick";
 
 function Landing() {
-    
+
     return (
         <div>
-            <div className='lan1'>
+            <div className='lan1 mb-5'>
                 <div className='lan2'>
                     <Row>
                         <Col lg={3} md={3} sm={3} xs={3} className='pt-3'>
                             <Link to={'/'} style={{ textDecoration: 'none' }}>
-                                <h1 style={{ color: 'darkgreen' }}>AZDA</h1>
+                                <h1 style={{ color: 'rgba(1, 103, 84, 1)' }}><u>Azda</u></h1>
                             </Link>
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
@@ -27,7 +28,6 @@ function Landing() {
                                 </Col>
                                 <Col lg={3} md={3} sm={3} xs={3}>
                                     <Link to={'/pricing'} style={{ textDecoration: 'none', color: 'white' }}>
-
                                         <div style={{ position: 'relative', left: '62%' }}>
                                             <h6>Price</h6>
                                         </div>
@@ -35,7 +35,6 @@ function Landing() {
                                 </Col>
                                 <Col lg={3} md={3} sm={3} xs={3}>
                                     <Link to={'/faq'} style={{ textDecoration: 'none', color: 'white' }}>
-
                                         <div style={{ position: 'relative', left: '20%' }}>
                                             <h6>FAQ</h6>
                                         </div>
@@ -53,9 +52,7 @@ function Landing() {
                         <Col lg={3} md={3} sm={3} xs={3} className='pt-4'>
                             <Link to={'/contact'} style={{ textDecoration: 'none' }}>
                                 <div className='butn1' style={{ position: 'relative', right: '10%' }}>
-
                                     <button type="button" class="btn btn-outline-light">Contact Us</button>
-
                                 </div>
                             </Link>
                         </Col>
@@ -77,14 +74,19 @@ function Landing() {
                     <button type="button" class="btn btn-light"> Contact Us </button>
                 </div>
                 {/* message  */}
-                <div className='lan4'>
-                    <div className='pt-4'>
-                        <h6 className='text-white'>Text Us</h6>
-                        <div>
-                            <i class="fa-solid fa-message text-white"></i>
+                <div className='land4 pb-1'>
+                    <div style={{ width: '100%', height: '100%' }}>
+                        <h6 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text Us Now</h6>
+                    </div>
+                    <div className='lan4'>
+                        <div className='pt-3'>
+                            <div>
+                                <i class="fa-solid fa-message text-white"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             {/* text div  */}
@@ -92,7 +94,7 @@ function Landing() {
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
                         <div className='pt-5 pb-5 lan5 container w-75'>
-                            <h3>Azda - Rådgivende ingeniør</h3>
+                            <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>Azda - Rådgivende ingeniør</h3>
                             <div className=''>
                                 <p style={{ fontSize: '20px' }}>Vi laver statiske beregninger ved nedrivning af bærende vægge, tilbygninger, nyopførte ejendomme og boliger. Vi er rådgivende ingeniører der hjælper dig i mål!</p>
                             </div>
@@ -101,53 +103,58 @@ function Landing() {
                     </Col>
                 </Row>
             </div>
-            <div className='mb-5'>
-                <h3 className='text-center text-success'>SKAL DU BRUGE STATISKE BEREGNINGER?</h3>
+            <div className='mb-5 pt-5'>
+                <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>SKAL DU BRUGE STATISKE BEREGNINGER?</h3>
             </div>
 
-
-            <div className='container w-75 madiv pb-5'>
+            {/* first div  */}
+            {/* <div className='  madiv pb-5'>
                 <Row>
                     <Col lg={6} md={6} sm={6} xs={6}>
                         <div className='firdiv'></div>
                     </Col>
+                    
                     <Col lg={6} md={6} sm={6} xs={6}>
                         <div className='secdiv pb-4 pt-4 ps-2'>
                             <h4>Nedrivning af vægge</h4>
-                            <div className='w-75 container'>
+                            <hr className='container w-25' style={{ color: 'rgba(1, 103, 84, 1)' }}/>
+                            <div className='w-75 mb-4 ms-5'>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil vero consequatur rem dicta!</p>
-                                <Button variant="success" size="sm">Show More</Button>{' '}
+                                <Button style={{ backgroundColor: 'rgba(1, 103, 84, 1)',zIndex:'1' }} size="sm">Show More</Button>{' '}
                             </div>
                         </div>
                     </Col>
                 </Row>
-            </div>
-
-            <div className='container w-75 madiv pb-5'>
+            </div> */}
+            {/* sec div  */}
+            {/* <div className=' madiv pb-5'>
                 <Row>
                     <Col lg={6} md={6} sm={6} xs={6}>
                         <div className='firdiv'></div>
                     </Col>
+                    
                     <Col lg={6} md={6} sm={6} xs={6}>
-                        <div className='secdiv pb-4 pt-4 ps-2'>
+                        <div className='secdiv pb-5 pt-4 ps-2'>
                             <h4>Nedrivning af vægge</h4>
-                            <div className='w-75 container'>
+                            <hr className='container w-25' style={{ color: 'rgba(1, 103, 84, 1)' }}/>
+                            <div className='w-75  mb-4 ms-5'>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil vero consequatur rem dicta!</p>
-                                <Button variant="success" size="sm">Show More</Button>{' '}
+                                <Button style={{ backgroundColor: 'rgba(1, 103, 84, 1)',zIndex:'1' }} size="sm">Show More</Button>{' '}
                             </div>
                         </div>
                     </Col>
                 </Row>
-            </div>
-
-            <div className='container w-75 madiv pb-5'>
+            </div> */}
+            {/* third div  */}
+            {/* <div className='container w-75 madiv pb-5'>
                 <Row>
                     <Col lg={6} md={6} sm={6} xs={6}>
                         <div className='thfirdiv pb-4 pt-4 ps-2'>
-                            <h4>Nedrivning af vægge</h4>
+                            <h4>Til- og ombygning </h4>
+                            <hr className='container w-25' style={{ color: 'rgba(1, 103, 84, 1)' }}/>
                             <div className='w-75 container'>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil vero consequatur rem dicta!</p>
-                                <Button variant="success" size="sm">Show More</Button>{' '}
+                                <Button style={{ backgroundColor: 'rgba(1, 103, 84, 1)',zIndex:'1' }} size="sm">Show More</Button>{' '}
                             </div>
                         </div>
 
@@ -158,23 +165,49 @@ function Landing() {
                         </div>
                     </Col>
                 </Row>
+            </div> */}
+
+            {/* firstdiv  */}
+
+            <div className='maindiv container'>
+                <Row>
+                    <Col lg={4} md={4} sm={4} xs={4}>
+                        <div className='firdiv'>
+                            <div className='imgdiv'>
+
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={8} md={8} sm={8} xs={8}>
+                        <div className='secdiv'>
+                            <div className='sec2div  ms-5 mt-1'>
+                                <h4 className='text-start'>Nedrivning af vægge</h4>
+                                <hr className=' w-25' style={{ color: 'rgba(1, 103, 84, 1)' }} />
+                                <p className='text-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil vero consequatur rem dicta!</p>
+                                <Button style={{ backgroundColor: 'rgba(1, 103, 84, 1)', zIndex: '1',position:'relative',bottom:'18.5px' }} size="sm">Show More</Button>{' '}
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
             </div>
 
-            <h4 className='text-success pb-5'>GLADE KUNDER  DET BEDSTE </h4>
+            <h4 className=' pb-5 pt-5' style={{ color: 'rgba(1, 103, 84, 1)' }}>GLADE KUNDER  DET BEDSTE </h4>
+
 
             <div className='mainmsg pb-5 '>
+
                 <Row>
                     <Col lg={3} md={3} sm={6} xs={6} className=' pt-5 pb-5'>
                         <div className='msg container w-75 '>
                             <div className='pt-5 ps-4 pe-4'>
                                 <i class="fa-solid fa-quote-left text-success"></i>
-                                <h5 className='text-success'>Text</h5>
+                                <h5 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text</h5>
                             </div>
                         </div>
                         <Row>
                             <Col lg={4} md={4} sm={4} xs={4} className='text-end'>
-                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png" 
-                                style={{width:'50%',height:'50%'}} alt="" />
+                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png"
+                                    style={{ width: '50%', height: '50%' }} alt="" />
                             </Col>
                             <Col lg={8} md={8} sm={8} xs={8} className='text-start'>
                                 <h6>Name</h6>
@@ -183,16 +216,16 @@ function Landing() {
                         </Row>
                     </Col>
                     <Col lg={3} md={3} sm={6} xs={6} className=' pt-5 pb-5'>
-                    <div className='msg container w-75 '>
+                        <div className='msg container w-75 '>
                             <div className='pt-5 ps-4 pe-4'>
                                 <i class="fa-solid fa-quote-left text-success"></i>
-                                <h5 className='text-success'>Text</h5>
+                                <h5 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text</h5>
                             </div>
                         </div>
                         <Row>
                             <Col lg={4} md={4} sm={4} xs={4} className='text-end'>
-                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png" 
-                                style={{width:'50%',height:'50%'}} alt="" />
+                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png"
+                                    style={{ width: '50%', height: '50%' }} alt="" />
                             </Col>
                             <Col lg={8} md={8} sm={8} xs={8} className='text-start'>
                                 <h6>Name</h6>
@@ -200,17 +233,17 @@ function Landing() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col lg={3} md={3} sm={6} xs={6}  className=' pt-5 pb-5'>
-                    <div className='msg container w-75 '>
+                    <Col lg={3} md={3} sm={6} xs={6} className=' pt-5 pb-5'>
+                        <div className='msg container w-75 '>
                             <div className='pt-5 ps-4 pe-4'>
                                 <i class="fa-solid fa-quote-left text-success"></i>
-                                <h5 className='text-success'>Text</h5>
+                                <h5 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text</h5>
                             </div>
                         </div>
                         <Row>
                             <Col lg={4} md={4} sm={4} xs={4} className='text-end'>
-                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png" 
-                                style={{width:'50%',height:'50%'}} alt="" />
+                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png"
+                                    style={{ width: '50%', height: '50%' }} alt="" />
                             </Col>
                             <Col lg={8} md={8} sm={8} xs={8} className='text-start'>
                                 <h6>Name</h6>
@@ -219,16 +252,16 @@ function Landing() {
                         </Row>
                     </Col>
                     <Col lg={3} md={3} sm={6} xs={6} className=' pt-5  pb-5'>
-                    <div className='msg container w-75 '>
+                        <div className='msg container w-75 '>
                             <div className='pt-5 ps-4 pe-4'>
                                 <i class="fa-solid fa-quote-left text-success"></i>
-                                <h5 className='text-success'>Text</h5>
+                                <h5 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text</h5>
                             </div>
                         </div>
                         <Row>
                             <Col lg={4} md={4} sm={4} xs={4} className='text-end'>
-                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png" 
-                                style={{width:'50%',height:'50%'}} alt="" />
+                                <img src="https://i.postimg.cc/wjnP3Lb5/download-removebg-preview-1.png"
+                                    style={{ width: '50%', height: '50%' }} alt="" />
                             </Col>
                             <Col lg={8} md={8} sm={8} xs={8} className='text-start'>
                                 <h6>Name</h6>
@@ -237,13 +270,13 @@ function Landing() {
                         </Row>
                     </Col>
                 </Row>
-                
+
             </div>
-           
+
             <div className='pb-5 pt-5'>
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
-                        <h3 className='text-success'>HVAD KAN VI ELLERS GORE FOR DIG</h3>
+                        <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>HVAD KAN VI ELLERS GORE FOR DIG</h3>
                         <div className='container w-50'>
                             <p>Skal du bruge en geotekniker, VVS ingeniør eller en ekspert indenfor parameterisk design og 3D modellering, så hjælper vi dig i mål</p>
                         </div>
@@ -272,7 +305,7 @@ function Landing() {
 
                 </Row>
             </div>
-            <h3 className='text-success'>TIDLIGERE PROJEKTER</h3>
+            <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>TIDLIGERE PROJEKTER</h3>
             <div className='w-50 container pb-5'>
                 <p>Se nogle af de tidligere projekter som Azda har udført</p>
             </div>
@@ -296,7 +329,7 @@ function Landing() {
                 </Row>
             </div>
 
-            <h3 className='text-success'>HAVAD GOR VI HERFRA?</h3>
+            <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>HAVAD GOR VI HERFRA?</h3>
             <div className='pb-5'>
                 <Row>
                     <Col lg={3} md={3} sm={3} xs={3}>
@@ -324,13 +357,13 @@ function Landing() {
                 </Row>
             </div>
             <div className='pb-5'>
-                <h3 className='text-success'>HAVE QUESTIONS?</h3>
+                <h3 style={{ color: 'rgba(1, 103, 84, 1)' }}>HAVE QUESTIONS?</h3>
                 <Row>
-                    <Col lg={12} md={12} sm={12} xs={12} className='container' style={{ width: '30%' }}>
+                    <Col lg={12} md={12} sm={12} xs={12} className='container w-75' style={{ width: '30%' }}>
                         <p>Feel free to get in touch and contact us at any time!</p>
                         <div className='container w-75 text-start'>
                             <p><i class="fa-solid fa-location-dot"></i> Karadžičova 6, 821 08 Bratislava SK – Slovakia</p>
-                            <p><i class="fa-solid fa-phone"></i> 12 34 45  67</p>
+                            <p><i class="fa-solid fa-phone"></i> 12344567</p>
                             <p><i class="fa-solid fa-envelope"></i> email@gmail.com</p>
                         </div>
 

@@ -25,12 +25,22 @@
   right:10%
 }
 .lan4{
-  width:80px;
-  height: 80px;
+  width:50px;
+  height:50px;
   position: relative;
-  left:75%;
-  background-color: darkgreen;
+  left:48%;
+  top:20%;
+   background: rgba(1, 103, 84, 1);
   border-radius: 150px;
+}
+.land4{
+  width:100%;
+  height:100%;
+  position: relative;
+  left:36%;
+  color:rgba(1, 103, 84, 1);
+  /* bottom: 20px; */
+  z-index:1;
 }
 .lan5{
   width:350px;
@@ -45,7 +55,7 @@
  
 }
 
-.madiv{
+/* .madiv{
   height: 100%;
   position: relative;
 
@@ -54,21 +64,26 @@
   position:relative;
   right:4%;
   width:100%;
-  height:100%;
+  height: 300px;
+  
   z-index: 1;
   background-color: lightgray;
   border-radius: 10px;
 }
 .firdiv{
   position:absolute;
+      max-width: 50%;
+
   left:4%;
   width:50%;
+  height: 275px;
   top:10%;
   height: 60%;
   background-image: url('https://i.postimg.cc/66zZBSXm/Image-by-Stefan-Lehner.png');
     background-size: cover;
     z-index: 2;
     border-radius: 10px;
+    display: inline-block;
 }
 .thsecdiv{
   position:absolute;
@@ -89,6 +104,46 @@
   z-index: 2;
   background-color: lightgray;
   border-radius: 10px;
+} */
+
+.maindiv {
+  width: 600px;
+  height: 258px;
+}
+.firdiv{
+  width: 110%;
+  height: 200px;
+  z-index: 2;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+.imgdiv{
+  width: 110%;
+  height: 200px;
+  background-image: url('https://i.postimg.cc/66zZBSXm/Image-by-Stefan-Lehner.png');
+  background-size: cover;
+  z-index: 2;
+  border-radius: 10px;
+  position: absolute;
+  
+}
+.secdiv {
+  width: 100%;
+  height: 242px;
+  background-color: rgba(239, 239, 239, 1);
+  border: 1px solid black;
+  box-sizing: border-box; 
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.sec2div {
+  width: 90%; 
+  height: 212px;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .mainmsg{
@@ -179,7 +234,8 @@
 .ft1{
   width:100%;
   height: 100%;
-  background-color: rgb(8, 176, 142);
+ 
+  background: rgba(1, 103, 84, 1);
   color: white;
 }
 .port1 {
@@ -210,7 +266,9 @@
   height: 100%;
   background-color: lightgray;
 }
-
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Montserrat';
+}
 
 
 

@@ -11,7 +11,7 @@ function Portfolio() {
                     <Row>
                         <Col lg={3} md={3} sm={3} xs={3} className='pt-3'>
                             <Link to={'/'} style={{ textDecoration:'none'}}>
-                            <h1 style={{ color: 'darkgreen' }}>AZDA</h1>
+                            <h1 style={{color:'rgba(1, 103, 84, 1)'}}><u>Azda</u></h1>
                             </Link>
                         </Col>
                         <Col lg={6} md={6} sm={6} xs={6}>
@@ -71,16 +71,21 @@ function Portfolio() {
                     <button type="button" class="btn btn-light"> Contact Us </button>
                 </div>
                 {/* message  */}
-                <div className='lan4'>
-                    <div className='pt-4'>
-                        <h6 className='text-white'>Text Us</h6>
-                        <div>
-                            <i class="fa-solid fa-message text-white"></i>
+                <div className='land4 pb-1'>
+                    <div style={{ width: '100%', height: '100%' }}>
+                        <h6 style={{ color: 'rgba(1, 103, 84, 1)' }}>Text Us Now</h6>
+                    </div>
+                    <div className='lan4'>
+                        <div className='pt-3'>
+                            <div>
+                                <i class="fa-solid fa-message text-white"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <h3 className='text-success'>Azda - rådgivende ingeniør</h3>
+            <h3 style={{color:'rgba(1, 103, 84, 1)'}}>Azda - rådgivende ingeniør</h3>
             <Row className='mb-5'>
                 <Col lg={12} md={12} sm={12} xs={12}>
                     <div className='w-50 container'>
@@ -108,7 +113,7 @@ function Portfolio() {
                 ))}
 
                 <div>
-                    <Button variant="success">Show More</Button>{' '}
+                    <Button style={{backgroundColor:'rgba(1, 103, 84, 1)'}}>Show More</Button>{' '}
                 </div>
             </div>
             <Footer></Footer>
